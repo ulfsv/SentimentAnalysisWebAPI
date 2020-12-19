@@ -13,13 +13,13 @@ Pre-trained model. Use the ML.NET Sentiment Analysis tutorial to build your own 
 
 # How the data was prepared
 
-A pretrained model was used based on UCI Sentiment Labeled Sentences dataset. The hyperparameter training values and accuracy on the test set are unknown. The quality of the data and correct classification in to negative and positive classification are th most important part of getting a model with good accuracy.
-The training data looks similar to this:
-SentimentText 	                            Sentiment (Label)
-Waitress was a little slow in service. 	     0
-Crust is not good. 	                         0
-Wow... Loved this place.                     1
-Service was very prompt.                  	 1
+A pretrained model was used based on UCI Sentiment Labeled Sentences dataset. The hyperparameter training values and accuracy on the test set are unknown. The quality of the data and correct classification in to negative and positive classification are the most important part of getting a model with good accuracy.
+- The training data looks similar to this:
+ SentimentText 	                            Sentiment (Label)
+ Waitress was a little slow in service. 	     0
+ Crust is not good. 	                         0
+ Wow... Loved this place.                     1
+ Service was very prompt.                  	 1
 
 # Showing the swagger API documentation with Swashbuckle
 ![predict from command line](https://github.com/ulfsv/SentimentAnalysisWebAPI/blob/master/swaggeer_doc.png)
