@@ -12,7 +12,7 @@ Prerequisites
     Pre-trained model. Use the ML.NET Sentiment Analysis tutorial to build your own model or download this pre-trained sentiment analysis machine learning model
 
 # Showing the swagger API documentation with Swashbuckle
-![predict from command line](https://github.com/ulfsv/SentimentAnalysisWebAPI/blob/master/2020-12-17swagger.png)
+![predict from command line](https://github.com/ulfsv/SentimentAnalysisWebAPI/blob/master/swaggeer_doc.png)
 
 There are three main components to Swashbuckle:
 
