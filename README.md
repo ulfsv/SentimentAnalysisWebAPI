@@ -1,4 +1,6 @@
 # SentimentAnalysisWebAPI
+
+![predict from command line](https://github.com/ulfsv/SentimentAnalysisWebAPI/blob/master/predict.png)
 ### Deploy a model in an ASP.NET Core Web API
 I have deployed a pre-trained ML.NET machine learning model on the web using an ASP.NET Core Web API. 
 Serving a model over a web API enables predictions via standard HTTP methods.
@@ -10,6 +12,8 @@ Prerequisites
     Pre-trained model. Use the ML.NET Sentiment Analysis tutorial to build your own model or download this pre-trained sentiment analysis machine learning model
 
 # Showing the swagger API documentation with Swashbuckle
+![predict from command line](https://github.com/ulfsv/SentimentAnalysisWebAPI/blob/master/swaggeer_doc.png)
+
 There are three main components to Swashbuckle:
 
     Swashbuckle.AspNetCore.Swagger: a Swagger object model and middleware to expose SwaggerDocument objects as JSON endpoints.
