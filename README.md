@@ -13,13 +13,13 @@ Pre-trained model. Use the ML.NET Sentiment Analysis tutorial to build your own 
 
 # How the data was prepared
 
-The input dataset class, SentimentData, has a string for user comments (SentimentText) and a bool (Sentiment) value of either 1 (positive) or 0 (negative) for sentiment. Both fields have LoadColumn attributes attached to them, which describes the data file order of each field. In addition, the Sentiment property has a ColumnName attribute to designate it as the Label field. The following example file doesn't have a header row, and looks like this:
-How the data was prepared
-SentimentText 	Sentiment (Label)
-Waitress was a little slow in service. 	0
-Crust is not good. 	0
-Wow... Loved this place. 	1
-Service was very prompt. 	1
+A pretrained model was used based on UCI Sentiment Labeled Sentences dataset. The hyperparameter training values and accuracy on the test set are unknown. The quality of the data and correct classification in to negative and positive classification are th most important part of getting a model with good accuracy.
+The training data looks similar to this:
+SentimentText 	                            Sentiment (Label)
+Waitress was a little slow in service. 	     0
+Crust is not good. 	                         0
+Wow... Loved this place.                     1
+Service was very prompt.                  	 1
 
 # Showing the swagger API documentation with Swashbuckle
 ![predict from command line](https://github.com/ulfsv/SentimentAnalysisWebAPI/blob/master/swaggeer_doc.png)
