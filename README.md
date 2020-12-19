@@ -9,7 +9,7 @@ Prerequisites
     PowerShell.
     Pre-trained model. Use the ML.NET Sentiment Analysis tutorial to build your own model or download this pre-trained sentiment analysis machine learning model
 
-# Showig the swagger API documentation with Swashbuckle
+# Showing the swagger API documentation with Swashbuckle
 There are three main components to Swashbuckle:
 
     Swashbuckle.AspNetCore.Swagger: a Swagger object model and middleware to expose SwaggerDocument objects as JSON endpoints.
